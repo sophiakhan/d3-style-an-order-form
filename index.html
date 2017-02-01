@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sanpellegrino Sparking Fruit Beverages</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/global.css" />
+</head>
+<body>
+
+    <!--<img width="650" alt="San Pellegrino Fruit Beverages" src="http://www.paolocastello.net/wp-content/uploads/2013/01/News-SFB2.jpg" />-->
+
+    <div class="card">
+
+        <form method="post" action="https://formspree.io/sophiaxkhan@gmail.com">
+
+            <input type="hidden" name="product" value="San-Pellegrino" />
+            
+            <div class="field">
+                <label for="sp-flavors">Pick your flavor:</label>
+                <select id="sp-flavors" name="flavors">
+                    <option value="lemon">Lemon</option>
+                    <option value="orange">Orange</option>
+                    <option value="grapefruit">Grapefruit</option>
+                    <option value="clementine">Clementine</option>
+                    <option value="bloodOrange">Blood Orange</option>
+                    <option value="pomOrange">Pomegranite & Orange</option>
+                    <option value="pearOrange">Prickly Pear & Orange</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="order-quantity">Order Quantity:</label>
+                <input type="number" id="order-quantity" name="quantity" />
+            </div>
+
+            <div class="field"> 
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" />
+            </div>
+
+            <div class="field">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" />
+            </div>
+
+            <div class="field">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" />
+            </div>
+
+            <div class="field">
+                <label for="phone-number">Phone Number:</label>
+                <input type="text" id="phone-number" name="phone-number" />
+            </div>
+
+            <div class="field">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" />
+            </div>
+
+            <div class="field">
+                <label for="state">State:</label>
+                <select id="state" name="state">
+                    <option value="IN">Indiana</option>
+                    <option value="IL">Illinois</option>
+                    <option value="KY">Kentucky</option>
+                    <option value="MI">Michigan</option>
+                    <option value="OH">Ohio</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="TN">Tennessee</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="zip-code">Zip Code:</label>
+                <input type="text" id="zip-code" name="zip-code" />
+            </div>
+
+            <div class="field">
+                <label for="shipping-instructions">Specifify Shipping Instructions Below:</label>
+                <textarea id="shipping-instructions" name="shipping-instructions"></textarea>
+            </div>
+
+            <div class="field">
+                <label for="wants-newsletter">Sign me up for the newsletter!</label>
+                <input type="checkbox" id="wants-newsletter" name="wants-newsletter" value="Yes"/>
+            </div>
+
+            <div class="field field-centered">
+               <button type="submit">Submit</button>
+            </div>
+
+        </form>
+
+    </div>
+
+ 
+
+</body>
+</html>
