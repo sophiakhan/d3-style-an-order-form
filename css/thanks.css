@@ -17,9 +17,15 @@ body {
     max-width: 400px;
     margin: 0 auto;
     font-family: 'Titillium Web', sans-serif;
+    transition:all 0.3s ease;
+
 }
 
 p {
     text-align: center;
     font-size: 75px;
+}
+
+.color-change:hover {
+    background-color: greenyellow;
 }
