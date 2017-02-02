@@ -5,7 +5,7 @@
 body {
     /*background:#dfe5cc;*/
     padding: 20px;
-    background-image: url("/img/bright-photo-layer.JPG");
+    background-image: url("https://github.com/sophiakhan/d3-style-an-order-form/blob/master/img/bright-photo-layer.jpg?raw=true");
     background-color: #e8ecda;
     background-attachment: fixed;
 }
